@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'camell';
-  src: url('../fonts/Hakgyoansim\ Dunggeunmiso\ OTF\ B.otf') format('opentype');
+  src: url('fonts/Hakgyoansim\ Dunggeunmiso\ OTF\ B.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -234,7 +234,7 @@ height: 50px;
   margin-bottom: 50px;
 }
 .textchange{
-  background:url(../images/fontimg.jpg) no-repeat center / cover;
+  background:url(images/fontimg.jpg) no-repeat center / cover;
   font-size: 40px;
   font-weight: bold;
   -webkit-background-clip: text;
@@ -329,7 +329,7 @@ height: 50px;
 .recall{
   width: 100%;
   height: 100vh;
-  background: url(../images/timerbg01.png) ;
+  background: url(images/timerbg01.png) ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -388,15 +388,15 @@ height: 50px;
 
 }
 .video .mySwiper .swiper-wrapper .swiper-slide:nth-child(1){
-  background: url(../images/slidebg01.png) ;
+  background: url(images/slidebg01.png) ;
   background-size: cover;
 }
 .video .mySwiper .swiper-wrapper .swiper-slide:nth-child(2){
-  background: url(../images/kimhae.png);
+  background: url(images/kimhae.png);
   background-size: cover;
 }
 .video .mySwiper .swiper-wrapper .swiper-slide:nth-child(3){
- background: url(../images/shop.png);
+ background: url(images/shop.png);
  background-size: cover;
  background-position: center;
 }
@@ -733,13 +733,13 @@ transform: translateX(-50%);
 .swiper-button-prev{
   margin-top: -190px;
   margin-left: 1150px;
-  background: url(../images/slideprev.png) no-repeat;
+  background: url(images/slideprev.png) no-repeat;
   background-size: 100%;
 }
 .swiper-button-next{
 margin-right: 400px;
 margin-top: -190px;
-background: url(../images/slidenext.png) no-repeat;
+background: url(images/slidenext.png) no-repeat;
 background-size: 100%;
 }
 .swiper-pagination{

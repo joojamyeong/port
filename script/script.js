@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const sections = [introduceSection, recallSection, videoSection]; 
 
   const backgroundImages = [
-    "url('../images/timerbg02.png')",
-    "url('../images/timerbg03.png')",
-    "url('../images/timerbg04.png')",
-    "url('../images/timerbg05.png')",
-    "url('../images/timerbg06.png')",
-    "url('../images/timerbg07.png')",
+    "url('images/timerbg02.png')",
+    "url('images/timerbg03.png')",
+    "url('images/timerbg04.png')",
+    "url('images/timerbg05.png')",
+    "url('images/timerbg06.png')",
+    "url('images/timerbg07.png')",
   ];
 
   let currentSectionIndex = 0; 
@@ -93,22 +93,22 @@ document.addEventListener("DOMContentLoaded", function () {
     if (state === 0) {
       introduceTop.innerHTML = ' <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div>'
       introduceBottom.innerHTML = '   <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div>'
-      leftContent.innerHTML = '<img src="../images/test01.png" alt="">'; 
+      leftContent.innerHTML = '<img src="images/test01.png" alt="">'; 
       rightContent.innerHTML = '<p class="who">WHO AM I</p><p class="iam">저는</p><span class="textchange">카멜레온 같은 <br> 사람입니다.</span><div class="page"><em>1</em><span class="num">ST</span><span class="slash">/</span>4</div>';
     } else if (state === 1) {
       introduceTop.innerHTML = ' <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div>'
       introduceBottom.innerHTML = ' <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div>'
-      leftContent.innerHTML = '<img src="../images/test01.png" alt="">';
+      leftContent.innerHTML = '<img src="images/test01.png" alt="">';
       rightContent.innerHTML = '<p class="who">WHO AM I</p><p class="iam">저는</p><span class="textchange1">상황에 따라 유연하게 변화를 <br> 수용하고 원활한 소통을 통해 <br> 다양한 사람들과 쉽게 친해져<br> 협업에 강점을 지니고 있습니다.</span><div class="page1"><em>2</em><span class="num">ND</span><span class="slash">/</span>4</div>';
     } else if (state === 2) {
       introduceTop.innerHTML = ' <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div>'
       introduceBottom.innerHTML = ' <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div><div class="whiterect"></div>'
-      leftContent.innerHTML = '<img src="../images/test01.png" alt="">'; 
+      leftContent.innerHTML = '<img src="images/test01.png" alt="">'; 
       rightContent.innerHTML = '<p class="who">WHO AM I</p><p class="iam">저는</p><span class="textchange2">다양한 관점에서 문제를 분석하고<br>창의적인 해결책을 융합하여<br>혁신적인 접근 방식을<br> 제시하는 데 강점이 있습니다.</span><div class="page1"><em>3</em><span class="num">RD</span><span class="slash">/</span>4</div>';
     } else if (state === 3) {
       introduceTop.innerHTML = ' <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div>'
       introduceBottom.innerHTML = ' <div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div><div class="blackrect"></div>'
-      leftContent.innerHTML = '<img src="../images/test01.png" alt="">'; 
+      leftContent.innerHTML = '<img src="images/test01.png" alt="">'; 
       rightContent.innerHTML = '<p class="who">WHO AM I</p><p class="iam">저는</p><span class="textchange3">SKILL</span><div class="page1"><em>4</em><span class="num">TH</span><span class="slash">/</span>4</div>';
     }
 
