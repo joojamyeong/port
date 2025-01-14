@@ -232,7 +232,7 @@ height: 50px;
   margin-bottom: 50px;
 }
 .textchange{
-  background: url(/images/fontimg.jpg) no-repeat center / cover;
+  background: url(https://joojamyeong.github.io/port/images/fontimg.jpg) no-repeat center / cover;
   font-size: 40px;
   font-weight: bold;
   -webkit-background-clip: text;
