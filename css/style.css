@@ -390,11 +390,11 @@ height: 50px;
   background-size: cover;
 }
 .video .mySwiper .swiper-wrapper .swiper-slide:nth-child(2){
-  background: url(/images/kimhae.png);
+  background: url(https://joojamyeong.github.io/port/images/kimhae.png);
   background-size: cover;
 }
 .video .mySwiper .swiper-wrapper .swiper-slide:nth-child(3){
- background: url(/images/shop.png);
+ background: url(https://joojamyeong.github.io/port/images/shop.png);
  background-size: cover;
  background-position: center;
 }
@@ -731,13 +731,13 @@ transform: translateX(-50%);
 .swiper-button-prev{
   margin-top: -190px;
   margin-left: 1150px;
-  background: url(/images/slideprev.png) no-repeat;
+  background: url(https://joojamyeong.github.io/port/images/slideprev.png) no-repeat;
   background-size: 100%;
 }
 .swiper-button-next{
 margin-right: 400px;
 margin-top: -190px;
-background: url(/images/slidenext.png) no-repeat;
+background: url(https://joojamyeong.github.io/port/images/slidenext.png) no-repeat;
 background-size: 100%;
 }
 .swiper-pagination{
