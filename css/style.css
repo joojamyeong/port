@@ -729,21 +729,26 @@ transform: translateX(-50%);
   border: 3px solid #ffffff;
 }
 .swiper-button-prev{
-  margin-top: -190px;
-  margin-left: 1150px;
+  position: absolute;
+  top: 30%;
+  left: 70%;
   background: url(https://joojamyeong.github.io/port/images/slideprev.png) no-repeat;
   background-size: 100%;
 }
 .swiper-button-next{
-margin-right: 400px;
-margin-top: -190px;
+  position: absolute;
+  top: 30%;
+  right: 20%;
 background: url(https://joojamyeong.github.io/port/images/slidenext.png) no-repeat;
 background-size: 100%;
 }
 .swiper-pagination{
-width: 100px;
-margin-bottom: 590px;
-margin-left: 1200px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 27.5%;
+  left: 72.2%;
 font-size: 20px;
 font-weight: bold;
 }
+
