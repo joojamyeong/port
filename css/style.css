@@ -386,7 +386,7 @@ height: 50px;
 
 }
 .video .mySwiper .swiper-wrapper .swiper-slide:nth-child(1){
-  background: url(/images/slidebg01.png) ;
+  background: url(https://joojamyeong.github.io/port/images/slidebg01.png) ;
   background-size: cover;
 }
 .video .mySwiper .swiper-wrapper .swiper-slide:nth-child(2){
