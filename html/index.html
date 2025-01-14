@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoubleJm</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="intro-wrap">
+    <div class="intro-topleft">
+      <i class="fa-solid fa-battery-three-quarters"></i>
+    </div>
+    <div class="intro-topright">
+      <div class="rec">
+        <i class="fa-solid fa-circle"></i>
+        <span>REC</span>
+      </div>
+    </div>
+    <div class="intro-bottomleft"></div>
+    <div class="intro-bottomright"></div>
+    <div class="intro-center">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="count" id="count">
+        <div id="num"></div>
+      </div>
+    </div>
+    <div class="intro-centerbottom">
+      <img src="../images/intro.png" alt="">
+    </div>
+  </div>
+  <div class="introduce">
+    <div class="introduce-top">
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+    </div>
+    <div class="introduce-bottom">
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="blackrect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+      <div class="whiterect"></div>
+    </div>
+    <div class="introduce-inner">
+      <div class="introduce-left">
+        <img src="../images/test01.png" alt="">
+      </div>
+      <div class="introduce-right">
+        <p class="who">WHO AM I</p>
+        <p class="iam">저는</p>
+        <span class="textchange">카멜레온 같은 <br> 사람입니다.</span>
+        <div class="page"><em>1</em><span class="num">st</span><span class="slash">/</span>4</div>
+      </div>
+    </div>
+  </div>
+  <div class="recall">
+    <div class="top-bar">
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+    </div>
+    <div class="bottom-bar">
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+    </div>
+    <div class="recall-center">
+      <i class="fa-solid fa-forward-fast"></i>
+      <div class="fast" id="recall-timer">00:00</div>
+    </div>
+  </div>
+  <div class="video">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="videoimg">
+            <img src="../images/video.png" alt="">
+            <div class="videosticker">
+              <img src="../images/kbologo.png" alt="">
+              <p class="sticker-type">TEAM<br>PROJECT</p>
+              <p class="sticker-made">KBO RENEWAL <br>By JJM</p>
+            </div>
+          </div>
+          <div class="desc">
+            <div class="desc-title">KBO</div>
+            <span class="desc-desc">팬 중심적으로 시각효과와 접근성 <br>
+              신속한 정보와 정보의 통합위주로 디자인했습니다.</span>
+              <div class="desc-type"><h3>TYPE</h3><span>팀 작업 , 모바일 반응형</span></div>
+              <div class="desc-tools"><h3>TOOLS</h3><span>HTML , SCSS , javaScript</span></div>
+              <div class="desc-font"><h3>FONT</h3><span>KBO Dia Gothic , Gmarket Sans</span></div>
+              <div class="desc-colorline"><h3>MAIN COLOR</h3><div><span class="desc-color1">● </span><span class="desc-color2"> ●</span></div></div>
+              <div class="desc-btn">
+                <a href="https://joojamyeong.github.io/kborenewal/" class="web">WEB</a>
+                <a href="https://www.koreabaseball.com/" class="original">ORIGINAL</a>
+              </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide">
+          <div class="videoimg">
+            <img src="../images/video.png" alt="">
+            <div class="videosticker2">
+              <img src="../images/kimhaelogo.png" alt="">
+              <p class="sticker-type">PERSONAL<br>PROJECT</p>
+              <p class="sticker-made">공공기관 리뉴얼 <br>By JJM</p>
+            </div>
+          </div>
+          <div class="desc">
+            <div class="desc-title">김해시도시개발공사</div>
+            <span class="desc-desc">다양한 작동 오류 , 반응형 부재 <br>
+              정리되어 있지 않은 콘텐츠 및 사용자 편의성을 위해 디자인했습니다.</span>
+              <div class="desc-type2"><h3>TYPE</h3><span>개인 작업 , 모바일 반응형</span></div>
+              <div class="desc-tools"><h3>TOOLS</h3><span>HTML , CSS , javaScript</span></div>
+              <div class="desc-font"><h3>FONT</h3><span>NanumMiRaeNaMu , default</span></div>
+              <div class="desc-colorline2"><h3>MAIN COLOR</h3><div><span class="desc-color3">● </span><span class="desc-color4"> ●</span><span class="desc-color5"> ●</span></div></div>
+              <div class="desc-btn">
+                <a href="https://joojamyeong.github.io/repo-test/index.html" class="web2">WEB</a>
+                <a href="https://ghdc.or.kr/" class="original2">ORIGINAL</a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide"> <div class="videoimg">
+          <img src="../images/video.png" alt="">
+          <div class="videosticker3">
+            <img src="../images/shoplogo.png" alt="">
+            <p class="sticker-type">REACT<br>PROJECT</p>
+            <p class="sticker-made">SHOPPE<br>By JJM</p>
+          </div>
+        </div>
+        <div class="desc">
+          <div class="desc-title">SHOPPE</div>
+          <span class="desc-desc">React를 기반으로 사용자 중심의 <br> 웹 애플리케이션을 설계 및 개발하는 데 중점을 두었습니다.</span>
+            <div class="desc-type"><h3>TYPE</h3><span>개인 작업 , 테블릿 반응형</span></div>
+            <div class="desc-tools"><h3>TOOLS</h3><span>React</span></div>
+            <div class="desc-font"><h3>FONT</h3><span>apple-system, BlinkMacSystemFont</span></div>
+            <div class="desc-colorline"><h3>MAIN COLOR</h3><div><span class="desc-color1">● </span><span class="desc-color2"> ●</span></div></div>
+            <div class="desc-btn2">
+              <a href="https://jamuyng.github.io/test3_jjm" class="web3">WEB</a>
+            </div>
+        </div> </div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+<script src="../script/script.js"></script>
+</html>
